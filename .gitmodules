@@ -1,0 +1,4 @@
+
+[submodule ".themes/oscailte"]
+	path = .themes/oscailte
+	url = https://github.com/coogie/oscailte.git
