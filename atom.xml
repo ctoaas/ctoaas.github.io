@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[CTO As A Service]]></title>
+  <link href="http://ctoaas.github.io/atom.xml" rel="self"/>
+  <link href="http://ctoaas.github.io/"/>
+  <updated>2013-09-23T08:22:15+01:00</updated>
+  <id>http://ctoaas.github.io/</id>
+  <author>
+    <name><![CDATA[ctoaas]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up a simple blog]]></title>
+    <link href="http://ctoaas.github.io/blog/2013/09/22/setting-up-a-simple-blog/"/>
+    <updated>2013-09-22T21:01:00+01:00</updated>
+    <id>http://ctoaas.github.io/blog/2013/09/22/setting-up-a-simple-blog</id>
+    <content type="html"><![CDATA[<p>As part of a new business I&rsquo;m setting up, I wanted to get a simple blog system online. In the past I&rsquo;ve used Wordpress, and although I hate PHP have never found anything that made sense as an alternative.</p>
+
+<p>For me the criteria for an alternative were :
+&ndash; Written in a language platform I was interested in &ndash; this is pretty much any common, current web stack, except PHP.
+&ndash; Feature rich with the ability to extend it, an abundence of extensions and an active community.
+&ndash; Has a straightforward and cheap cloud deployment mechanism.</p>
+
+<p>But thinking about it again recently I&rsquo;m more interested in:
+&ndash; Has a straightforward and cheap cloud deployment mechanism.
+&ndash; Very little maintenance requirement &ndash; a static deployment to S3 would be perfect
+&ndash; Allowing the post content to be edited locally in text files, in an open format
+&ndash; Have a number of themes available, so that I only need to pick one and write some content and off I go
+&ndash; This is less of a priority but I&rsquo;m using node JS on a project I&rsquo;m working on at the moment, which I&rsquo;m new to, so any coding (extensions, templates, etc) being in Javascript would be ideal</p>
+
+<p>This led me towards Blacksmith, <a href="https://github.com/flatiron/blacksmith,">https://github.com/flatiron/blacksmith,</a> using an S3 static website for the hosting. I was pretty close to moving forward with this, but couldn&rsquo;t find much in the way of themes. I&rsquo;ve now settled (I think) on Octopress, and probably github pages for the hosting. I have a basic understanding of Ruby, and haven&rsquo;t used it in anger &ndash; but I assume I&rsquo;ll be able to pick it up should I need to.</p>
+
+<p>I&rsquo;ll now document the install process from my Mac.</p>
+
+<p>I started by following these articles:</p>
+
+<pre><code>http://miguelcamba.com/blog/2013/04/22/tutorial-create-a-blog-with-octopress-and-host-it-in-github-pages/
+</code></pre>
+
+<p>The first issue I received was when running rake deploy, which returned this error:</p>
+
+<pre><code>"You have already activated rake 10.1.0, but your Gemfile requires rake 0.9.2.2. Using bundle exec may solve this."
+</code></pre>
+
+<p>Running &ldquo;bundle exec rake install&rdquo; fixed this.</p>
+
+<p>The same went for the next few bundle commands, resolved using:</p>
+
+<pre><code>bundle exec rake setup_github_pages
+bundle exec rake deploy
+</code></pre>
+
+<p>When running this deployment task I received the error:</p>
+
+<pre><code>## Pushing generated _deploy website
+To -- removed for security --
+ ! [rejected]        master -&gt; master (non-fast-forward)
+error: failed to push some refs to '-- removed for security --'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+</code></pre>
+
+<p>One tip &ndash; when creating the repo in github, don&rsquo;t specify a git ignore or a licence and this issue seems to be avoided. I did find a solution to this on stack overflow : <a href="http://stackoverflow.com/questions/17609453/rake-gen-deploy-rejected-in-octopress">http://stackoverflow.com/questions/17609453/rake-gen-deploy-rejected-in-octopress</a></p>
+
+<pre><code>Edit the Rakefile and look for this line:
+
+system "git push origin #{deploy_branch}"
+Alter the line by adding a plus (+) before the #{deploy_branch} tag:
+
+system "git push origin +#{deploy_branch}"
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
