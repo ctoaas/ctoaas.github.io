@@ -82,18 +82,18 @@
   
 <section class="social aside-module grid__item one-whole lap-one-half">
   <h1 class="title delta">
-    Follow me!
+    CTO As A Service
   </h1>
   <ul class="unstyled">
     
     
+    <li><a class="github" href="//github.com/craigedmunds"><i class="icon-github"></i> Github</a></li>
     
     
     
     
     
-    
-    
+    <li><a class="twitter" href="//twitter.com/craigtech"><i class="icon-twitter"></i> Twitter</a></li>
     
   </ul>
 </section>
@@ -147,6 +147,26 @@
 
 
 
+
+<script>
+  $(document).ready(function(){
+    if (!window.jXHR){
+      var jxhr = document.createElement('script');
+      jxhr.type = 'text/javascript';
+      jxhr.src = '/javascripts/libs/jXHR.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jxhr, s);
+    }
+
+    github.showRepos({
+      user: 'craigedmunds',
+      count: 0,
+      skip_forks: true,
+      target: '#gh_repos'
+    });
+  });
+</script>
+<script src="/javascripts/github.js"></script>
 
 
 
