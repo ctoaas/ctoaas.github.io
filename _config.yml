@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://ctoaas.github.io
+url: http://www.ctoaas.co
 title: CTO As A Service
 subtitle: Helping businesses realise their technology ambitions
 author: ctoaas
@@ -61,9 +61,9 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
-
+social_title: Follow Us!
 # Github repositories
-github_user:
+github_user: craigedmunds
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
@@ -90,7 +90,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: ctoaas
 disqus_show_comment_count: false
 
 # Google Analytics
