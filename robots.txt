@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://ctoaas.github.io/sitemap.xml 
+Sitemap: http://www.ctoaas.co/sitemap.xml 

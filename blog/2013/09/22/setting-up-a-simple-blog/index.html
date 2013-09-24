@@ -15,7 +15,7 @@
     
     <meta name="viewport" content="width=device-width">
     
-    <link rel="canonical" href="http://ctoaas.github.io/blog/2013/09/22/setting-up-a-simple-blog">
+    <link rel="canonical" href="http://www.ctoaas.co/blog/2013/09/22/setting-up-a-simple-blog">
     <link href="/favicon.png" rel="icon">
     <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet">
     <link href="//atom.xml" rel="alternate" title="CTO As A Service" type="application/atom+xml">
@@ -150,6 +150,12 @@ system "git push origin +#{deploy_branch}"
 
 </article>
 
+ 
+<section id="disqus">
+  <h1 class="indent title">Comments</h1>
+  <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
 
         
         </div>
@@ -161,7 +167,7 @@ system "git push origin +#{deploy_branch}"
   
 <section class="social aside-module grid__item one-whole lap-one-half">
   <h1 class="title delta">
-    CTO As A Service
+    Follow Us!
   </h1>
   <ul class="unstyled">
     
@@ -223,6 +229,22 @@ system "git push origin +#{deploy_branch}"
 
 
 
+
+<script>
+  var disqus_shortname = 'ctoaas';
+  
+    
+    // var disqus_developer = 1;
+    var disqus_identifier = 'http://www.ctoaas.co/blog/2013/09/22/setting-up-a-simple-blog/';
+    var disqus_url = 'http://www.ctoaas.co/blog/2013/09/22/setting-up-a-simple-blog/';
+    var disqus_script = 'embed.js';
+  
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  }());
+</script>
 
 
 

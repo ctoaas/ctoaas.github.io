@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[CTO As A Service]]></title>
-  <link href="http://ctoaas.github.io/atom.xml" rel="self"/>
-  <link href="http://ctoaas.github.io/"/>
-  <updated>2013-09-24T08:47:34+01:00</updated>
-  <id>http://ctoaas.github.io/</id>
+  <link href="http://www.ctoaas.co/atom.xml" rel="self"/>
+  <link href="http://www.ctoaas.co/"/>
+  <updated>2013-09-24T17:30:37+01:00</updated>
+  <id>http://www.ctoaas.co/</id>
   <author>
     <name><![CDATA[ctoaas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Setting up a simple blog]]></title>
-    <link href="http://ctoaas.github.io/blog/2013/09/22/setting-up-a-simple-blog/"/>
+    <link href="http://www.ctoaas.co/blog/2013/09/22/setting-up-a-simple-blog/"/>
     <updated>2013-09-22T21:01:00+01:00</updated>
-    <id>http://ctoaas.github.io/blog/2013/09/22/setting-up-a-simple-blog</id>
+    <id>http://www.ctoaas.co/blog/2013/09/22/setting-up-a-simple-blog</id>
     <content type="html"><![CDATA[<p>As part of a new business I&rsquo;m setting up, I wanted to get a simple blog system online. In the past I&rsquo;ve used Wordpress, and although I hate PHP have never found anything that made sense as an alternative.</p>
 
 <p>For me the criteria for an alternative were :

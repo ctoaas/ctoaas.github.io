@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://ctoaas.github.io/blog/2013/09/22/setting-up-a-simple-blog/</loc>
+        <loc>http://www.ctoaas.co/blog/2013/09/22/setting-up-a-simple-blog/</loc>
         <lastmod>2013-09-24T08:08:58+01:00</lastmod>
     </url>
     <url>
-        <loc>http://ctoaas.github.io/blog/archives/</loc>
+        <loc>http://www.ctoaas.co/blog/archives/</loc>
         <lastmod>2013-09-24T08:08:58+01:00</lastmod>
     </url>
     <url>
-        <loc>http://ctoaas.github.io/blog/</loc>
+        <loc>http://www.ctoaas.co/blog/</loc>
         <lastmod>2013-09-24T08:08:58+01:00</lastmod>
     </url>
     <url>
-        <loc>http://ctoaas.github.io/humans.txt</loc>
+        <loc>http://www.ctoaas.co/humans.txt</loc>
         <lastmod>2013-09-24T08:08:58+01:00</lastmod>
     </url>
     <url>
-        <loc>http://ctoaas.github.io/</loc>
+        <loc>http://www.ctoaas.co/</loc>
         <lastmod>2013-09-24T08:08:58+01:00</lastmod>
     </url>
     <url>
-        <loc>http://ctoaas.github.io/robots.txt</loc>
+        <loc>http://www.ctoaas.co/robots.txt</loc>
         <lastmod>2013-09-24T08:08:58+01:00</lastmod>
     </url>
     <url>
-        <loc>http://ctoaas.github.io/search.html</loc>
+        <loc>http://www.ctoaas.co/search.html</loc>
         <lastmod>2013-09-24T08:08:58+01:00</lastmod>
     </url>
 </urlset>
