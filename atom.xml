@@ -4,7 +4,7 @@
   <title><![CDATA[Craig Edmunds]]></title>
   <link href="http://www.ctoaas.co/atom.xml" rel="self"/>
   <link href="http://www.ctoaas.co/"/>
-  <updated>2013-10-11T19:55:30+01:00</updated>
+  <updated>2013-10-12T09:34:14+01:00</updated>
   <id>http://www.ctoaas.co/</id>
   <author>
     <name><![CDATA[ctoaas]]></name>
@@ -12,97 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[How ghould I get started coding]]></title>
-    <link href="http://www.ctoaas.co/blog/2013/10/11/how-should-i-get-started-coding/"/>
-    <updated>2013-10-11T08:06:00+01:00</updated>
-    <id>http://www.ctoaas.co/blog/2013/10/11/how-should-i-get-started-coding</id>
-    <content type="html"><![CDATA[<p>I&rsquo;m asked so many times &ldquo;how can i/my friend/my child&rdquo; get into programming?</p>
-
-<p>With the growing influence of technology in business, the amount of attention on the &ldquo;tech startup&rdquo; scene, the governments TechCity initiative, the widely proclaimed shortage of technical talent and numerous articles pushing software development as a top career choice, this is likely to be asked even more frequently. I&rsquo;ve been iterating on an email response to people who ask and thought it&rsquo;s probably worth sharing it here.</p>
-
-<p>My suggested plan is listed below; it&rsquo;s not essential that they be folllowed in order, but each level gives the learner the building blocks they need to progress and offer a nice progression in my opinion.</p>
-
-<ul>
-<li>Learn the basic web page technologies</li>
-<li>Write lots of code</li>
-<li>Deploy a web page/site to a live environment</li>
-<li>Write lots of code</li>
-<li>Learn javascript</li>
-<li>Write lots of code</li>
-<li>Learn a server side language and framework</li>
-<li>Write lots of code</li>
-<li>Get a grounding in multiple languages and paradigms</li>
-<li>Write lots of code</li>
-<li>Join meetups and open source projects</li>
-<li>Write lots of code</li>
-<li>Keep learning</li>
-</ul>
-
-
-<h2>Learn the basic web page technologies</h2>
-
-<p>Web pages are the building blocks of the internet, and the current suite of web page technologies; HTML &amp; CSS are a good starting point for somebody wishing to get into programming. Manipulating a few text files, refreshing a browser and seeing the effects of your changes can be extremely satisfying and starts to give you an understanding of how software is created.</p>
-
-<p>You should also start to understand the building blocks of the internet and how they relate to each other; Http, TCP/IP. SSL, XML, JSON, client side and server side scripting.</p>
-
-<h2>Deploy a web page/site to a live environment</h2>
-
-<p>With a basic understanding of how to create a web page, you&rsquo;re able to create a landing page for your next idea. You could direct friends and family to it if it was hosted somewhere on the internet. Take a look at the available options; Github pages lets you host these &lsquo;static&rsquo; websites for free</p>
-
-<p>Learn javascript</p>
-
-<p>Write lots of code (see above)</p>
-
-<p>Learn a server side language and framework</p>
-
-<p>Write lots of code (see above)</p>
-
-<p>Get a grounding in multiple languages and paradigms
- &ndash; University does this part well, and I would consider it to be the most important part of a CompSci degree, but it&rsquo;s often a small part of the syllabus, and could be completed in 6 months to a year if it was focused on full time.</p>
-
-<p>Write lots of code (see above)</p>
-
-<p>Join meetups and open source projects</p>
-
-<pre><code>- Discuss
-- Peer review
-</code></pre>
-
-<p>Write lots of code (see above)</p>
-
-<p>Write more code &ndash; hopefully I&rsquo;ve emphasised that enough now.</p>
-
-<h2>Write lots of code</h2>
-
-<p>You&rsquo;ve probably realised that this recurrs over and over again in my plan. I can&rsquo;t emphasise enough how important it is to actually write code; it doesn&rsquo;t matter if you&rsquo;re writitng code completely for fun (solving coding challenges), contributing to startups or open source projects, or creating websites or apps for your parents/friends/neighbours/paying customers &ndash; the most important thing you can do as a programmer is hone your craft.</p>
-
-<p>Some tips:</p>
-
-<ul>
-<li>There are plenty of code challenges online; these come in the form of generic puzzles with a known solution, or potentially challenges without a solutuon sometimes paying prizes; the important thing is they give you the opportunity to excerise the raw skills that you learn and apply them to real problems. Check out code katas, <a href="http://projecteuler.net/,">http://projecteuler.net/,</a> <a href="https://code.google.com/codejam/,">https://code.google.com/codejam/,</a> <a href="https://www.hackerrank.com/">https://www.hackerrank.com/</a></li>
-<li>Join meetups and open source projects, and seek out further opportunities to discuss and to peer review your code and ideas.</li>
-<li>In person code challenges, like coding dojos, allow you to takle code challenges in a group, extend your knowledge base through working with other people and help you learn how to work in a team.</li>
-<li>Github has fundamentally changed the way the software develoment community communicates; if you see a project you want to contribute to it&rsquo;s now simple to fork it, change what you want and then contribute it back to the maintainer for inclusion in their project. Github also helps you demonstrate a body of evidence that can help you in your conversations with potential employers.</li>
-<li>Share the code you write and engage in the community : places like stack overflow let you ask, and answer questions. Asking questions helps you further your understanding, answering questions, and the comments you recieve, helps you validate and extend your understanding.</li>
-<li>Go to startup events, like Launch48 and Startup weekend, where you have the opportunity to apply your coding skills to a real life business problem. It doesn&rsquo;t matter how far into your programming career you are &ndash; these events are always crying out for more programmers and any help is appreciated.</li>
-</ul>
-
-
-<p>Should I get a Computer Science (or related) degree?</p>
-
-<p>I personally believe a Computer Science degree is not the best option for a large proportion of people that want to get into programming.</p>
-
-<p>Most software developer roles are not pushing the boundaries of the field. Most software developers are using an existing suite of tools, languages and techniques to solve business problems. Solving these problems is a combination of:
-* Experience &ndash; What similar problems have I solved before. What tools and techniques did I use? How can I improve on that approach?
-* Research &ndash; Who else has solved a similar problem before. What tools have they created that I can repurpose? How can I improve on that approach?
-* Learning &ndash; How do I apply the selected tools and techniques to the problem?
-* Implementation</p>
-
-<p>There are many legitimate reasons to go to University if you want to become a programmer; CompSci degrees and graduates of them are needed as the boundaries of the field do need to be continually pushed, with the results of that filtering down to the mainstream to utilise. Non subject specific and social reasons for going to University; expanding your mental capacity, critical thinking/analysis, getting away from home for the first time, becoming independent, broadening your horizons, finding yourself, not knowing what you want to do with your life, laziness, etc. These are valid, but people shouldn&rsquo;t be afraid to be honest about which of them apply to them.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Setting up a simple blog]]></title>
