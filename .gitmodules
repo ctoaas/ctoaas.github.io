@@ -2,3 +2,6 @@
 [submodule ".themes/oscailte"]
 	path = .themes/oscailte
 	url = https://github.com/coogie/oscailte.git
+[submodule ".themes/customtheme"]
+	path = .themes/customtheme
+	url = git@github.com:craigedmunds/custom-octopress-theme.git
