@@ -1,68 +1,29 @@
 ---
-layout: page
-title: "Making technology work for you"
-date: 2013-08-16 23:48
-comments: true
-show_title: false
-sidebar: false
-hero_unit: true
-is_homepage: true
+layout: default
 ---
 
-<div class="grid-wrapper">
-  <div class="grid">
-    <div class="grid__item one-third lap-one-whole palm-one-whole usp">
-      <div class="grid">
-        <div class="grid__item one-whole lap-one-third">
-          <span class="icon">
-            <i class="icon-laptop"></i>
-          </span>
-        </div>
-
-        <div class="grid__item one-whole lap-two-thirds">
-          <h2 class="title">Technical due diligence</h2>
-          <hr>
-          <p>
-            I have an idea, can this be built? How would I build it? who should build it for me?), recruiting and managing a technical team or providing technical resources to a team to reduce development timeframes.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="grid__item one-third lap-one-whole palm-one-whole usp">
-      <div class="grid">
-        <div class="grid__item one-whole lap-one-third">
-          <span class="icon">
-            <i class="icon-search"></i>
-          </span>
-        </div>
-
-        <div class="grid__item one-whole lap-two-thirds">
-          <h2 class="title">Recruit & manage a technical team</h2>
-          <hr>
-          <p>
-            With the well publicised heat in the market for technical talent right now it can be difficult to build a team, let alone a great team. We'll work with you and help you understand the different delivery models; local/in-house, outsourced and offshore, which would work best for your circumstances and how to manage the relationships.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="grid__item one-third lap-one-whole palm-one-whole usp">
-      <div class="grid">
-        <div class="grid__item one-whole lap-one-third">
-          <span class="icon">
-            <i class="icon-coffee"></i>
-          </span>
-        </div>
-
-        <div class="grid__item one-whole lap-two-thirds">
-          <h2 class="title">Something else?</h2>
-          <hr>
-          <p>
-            Whether you need good coders to reduce your time to market, help with a small issue you just can't seem to fix, or just aren't sure where to start, drop us a line and we'll meet you for a coffee, discuss where you feel you need support and tell you how we may be able to help
-          </p>
-        </div>
-      </div>
-    </div>
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
+    {% endif %}
+    <a href="/blog/archives">Blog Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
+    {% endif %}
   </div>
 </div>
+<aside class="sidebar">
+  {% if site.blog_index_asides.size %}
+    {% include_array blog_index_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+</aside>
