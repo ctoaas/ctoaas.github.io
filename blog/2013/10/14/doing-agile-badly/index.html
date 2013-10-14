@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Craig Edmunds</title>
+  <title>Doing agile badly - Craig Edmunds</title>
   <meta name="author" content="ctoaas">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.ctoaas.co/">
+  <link rel="canonical" href="http://www.ctoaas.co/blog/2013/10/14/doing-agile-badly/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -77,15 +77,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/10/14/doing-agile-badly/">Doing Agile Badly</a></h1>
+      <h1 class="entry-title">Doing Agile Badly</h1>
     
     
       <p class="meta">
@@ -108,7 +105,7 @@
   </header>
 
 
-  <div class="entry-content"><p>I&rsquo;ve seen a number of teams who proclaim to be &lsquo;doing agile&rsquo;, with varying levels of success. For me, and especially where the team isn&rsquo;t in a complex environment (i.e. a hierarchy of agile teams / scrums of scrums, etc), the major benefit of agile is that it allows the team to be as efficient as possible, delivering as much business value as possible.</p>
+<div class="entry-content"><p>I&rsquo;ve seen a number of teams who proclaim to be &lsquo;doing agile&rsquo;, with varying levels of success. For me, and especially where the team isn&rsquo;t in a complex environment (i.e. a hierarchy of agile teams / scrums of scrums, etc), the major benefit of agile is that it allows the team to be as efficient as possible, delivering as much business value as possible.</p>
 
 <p>Agile is often used as a positive spin on disorganised, and this actually accerbates the problem; both through the differences between reality and what is presented to customers, prospective team members and other stakeholders, and because of the additional process and work associated with agile (retrospectives, planning sessions) that are ineffective and waste time when not used properly.</p>
 
@@ -129,22 +126,16 @@
 
 <p>Do you recognise any of them in your team?</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/09/22/setting-up-a-simple-blog/">Setting Up a Simple Blog</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">ctoaas</span></span>
+
+      
 
 
 
@@ -156,82 +147,46 @@
   
 
 
-<time datetime="2013-09-22T21:01:00+01:00" pubdate data-updated="true">Sep 22<span>nd</span>, 2013</time>
-        
-      </p>
+<time datetime="2013-10-14T07:45:00+01:00" pubdate data-updated="true">Oct 14<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/agile/'>agile,</a>, <a class='category' href='/blog/categories/developers/'>developers,</a>, <a class='category' href='/blog/categories/development-methodologies/'>development-methodologies</a>, <a class='category' href='/blog/categories/programming/'>programming,</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>As part of a new business I&rsquo;m setting up, I wanted to get a simple blog system online. In the past I&rsquo;ve used Wordpress, and although I hate PHP have never found anything that made sense as an alternative.</p>
-
-<p>For me the criteria for an alternative were :
-&ndash; Written in a language platform I was interested in &ndash; this is pretty much any common, current web stack, except PHP.
-&ndash; Feature rich with the ability to extend it, an abundence of extensions and an active community.
-&ndash; Has a straightforward and cheap cloud deployment mechanism.</p>
-
-<p>But thinking about it again recently I&rsquo;m more interested in:
-&ndash; Has a straightforward and cheap cloud deployment mechanism.
-&ndash; Very little maintenance requirement &ndash; a static deployment to S3 would be perfect
-&ndash; Allowing the post content to be edited locally in text files, in an open format
-&ndash; Have a number of themes available, so that I only need to pick one and write some content and off I go
-&ndash; This is less of a priority but I&rsquo;m using node JS on a project I&rsquo;m working on at the moment, which I&rsquo;m new to, so any coding (extensions, templates, etc) being in Javascript would be ideal</p>
-
-<p>This led me towards Blacksmith, <a href="https://github.com/flatiron/blacksmith,">https://github.com/flatiron/blacksmith,</a> using an S3 static website for the hosting. I was pretty close to moving forward with this, but couldn&rsquo;t find much in the way of themes. I&rsquo;ve now settled (I think) on Octopress, and probably github pages for the hosting. I have a basic understanding of Ruby, and haven&rsquo;t used it in anger &ndash; but I assume I&rsquo;ll be able to pick it up should I need to.</p>
-
-<p>I&rsquo;ll now document the install process from my Mac.</p>
-
-<p>I started by following these articles:</p>
-
-<pre><code>http://miguelcamba.com/blog/2013/04/22/tutorial-create-a-blog-with-octopress-and-host-it-in-github-pages/
-</code></pre>
-
-<p>The first issue I received was when running rake deploy, which returned this error:</p>
-
-<pre><code>"You have already activated rake 10.1.0, but your Gemfile requires rake 0.9.2.2. Using bundle exec may solve this."
-</code></pre>
-
-<p>Running &ldquo;bundle exec rake install&rdquo; fixed this.</p>
-
-<p>The same went for the next few bundle commands, resolved using:</p>
-
-<pre><code>bundle exec rake setup_github_pages
-bundle exec rake deploy
-</code></pre>
-
-<p>When running this deployment task I received the error:</p>
-
-<pre><code>## Pushing generated _deploy website
-To -- removed for security --
- ! [rejected]        master -&gt; master (non-fast-forward)
-error: failed to push some refs to '-- removed for security --'
-hint: Updates were rejected because the tip of your current branch is behind
-hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
-hint: before pushing again.
-</code></pre>
-
-<p>One tip &ndash; when creating the repo in github, don&rsquo;t specify a git ignore or a licence and this issue seems to be avoided. I did find a solution to this on stack overflow : <a href="http://stackoverflow.com/questions/17609453/rake-gen-deploy-rejected-in-octopress">http://stackoverflow.com/questions/17609453/rake-gen-deploy-rejected-in-octopress</a></p>
-
-<pre><code>Edit the Rakefile and look for this line:
-
-system "git push origin #{deploy_branch}"
-Alter the line by adding a plus (+) before the #{deploy_branch} tag:
-
-system "git push origin +#{deploy_branch}"
-</code></pre>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.ctoaas.co/blog/2013/10/14/doing-agile-badly/" data-via="craigtech" data-counturl="http://www.ctoaas.co/blog/2013/10/14/doing-agile-badly/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/09/22/setting-up-a-simple-blog/" title="Previous Post: Setting up a simple blog">&laquo; Setting up a simple blog</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -273,7 +228,7 @@ system "git push origin +#{deploy_branch}"
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/craigedmunds">@craigedmunds</a> on GitHub
@@ -315,6 +270,7 @@ system "git push origin +#{deploy_branch}"
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -329,7 +285,10 @@ system "git push origin +#{deploy_branch}"
       var disqus_shortname = 'ctoaas';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.ctoaas.co/blog/2013/10/14/doing-agile-badly/';
+        var disqus_url = 'http://www.ctoaas.co/blog/2013/10/14/doing-agile-badly/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
