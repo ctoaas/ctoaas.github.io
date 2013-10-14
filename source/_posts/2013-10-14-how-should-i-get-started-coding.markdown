@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How ghould I get started coding"
-date: 2013-10-04 08:06
+date: 2013-10-14 08:06
 comments: true
 published: true
 categories: developers, learning, programming, job-advice
