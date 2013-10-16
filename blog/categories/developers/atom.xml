@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: developers, | Craig Edmunds]]></title>
+  <title><![CDATA[Category: developers | Craig Edmunds]]></title>
   <link href="http://www.ctoaas.co/blog/categories/developers/atom.xml" rel="self"/>
   <link href="http://www.ctoaas.co/"/>
-  <updated>2013-10-14T16:40:29+01:00</updated>
+  <updated>2013-10-16T17:36:05+01:00</updated>
   <id>http://www.ctoaas.co/</id>
   <author>
     <name><![CDATA[ctoaas]]></name>
@@ -27,7 +27,7 @@
 <ul>
 <li>The team either has an empowered sponsor/business owner available at least 80% of the time, or there is a good understanding of the acceptance criteria for work items being delivered. If you regularly have situations where the sponsors expectations aren&rsquo;t met, this is likely to be the issue.</li>
 <li>The backlog is managed sensibly, with work coming into the backlog and the team managing it through the process. Work coming in directly to individuals is a common indication this isn&rsquo;t happening.</li>
-<li>Work item estimation is done with a good understanding of what the scope / acceptance criteria are. Estimating based on a one line description are unlikely to be accurate.</li>
+<li>Work item estimation is done with a good understanding of what the scope / acceptance criteria are. Estimations based on a one line description are unlikely to be accurate.</li>
 <li>The team has an appropriate development process for their situation. If the team is less than ten people, in one room, a simple wall board should suffice. If you have remote team members you need to think about how they interact with it.</li>
 <li>The team is empowered to deliver, and to modify their development process. This should be handled in the retrospective with the team optimising as appropriate.</li>
 <li>The team has a culture of code quality, especially tests. You often see a reluctance to refactor code when a codebase has insufficient tests.</li>
@@ -36,6 +36,8 @@
 <li>The team ships regularly, whether this is to a UAT envvironment, or live features are being deployed regularly. If the shorter of a month, or two iterations go by and this hasn&rsquo;t happened, it&rsquo;s a bad sign.</li>
 </ul>
 
+
+<p>Note I didn&rsquo;t say you need to produce reams of documentation for this stuff, putting stuff &lsquo;on paper&rsquo; and storing them somewhere centrally does help the team be explicit about expectations, but isn&rsquo;t essential.</p>
 
 <p>Do you recognise any of them in your team?</p>
 ]]></content>
