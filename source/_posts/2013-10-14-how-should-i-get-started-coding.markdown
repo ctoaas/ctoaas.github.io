@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "How ghould I get started coding"
+title: "How should I get started coding"
 date: 2013-10-14 08:06
 comments: true
-published: true
-categories: developers, learning, programming, job-advice
+published: false
+categories: developers learning programming job-advice
 ---
 I'm asked so many times "how can i/my friend/my child get into programming?"
 
