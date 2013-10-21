@@ -4,7 +4,7 @@
   <title><![CDATA[Category: agile | Craig Edmunds]]></title>
   <link href="http://www.ctoaas.co/blog/categories/agile/atom.xml" rel="self"/>
   <link href="http://www.ctoaas.co/"/>
-  <updated>2013-10-16T17:36:05+01:00</updated>
+  <updated>2013-10-21T21:38:41+01:00</updated>
   <id>http://www.ctoaas.co/</id>
   <author>
     <name><![CDATA[ctoaas]]></name>
@@ -20,12 +20,12 @@
     <id>http://www.ctoaas.co/blog/2013/10/14/doing-agile-badly</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve seen a number of teams who proclaim to be &lsquo;doing agile&rsquo;, with varying levels of success. For me, and especially where the team isn&rsquo;t in a complex environment (i.e. a hierarchy of agile teams / scrums of scrums, etc), the major benefit of agile is that it allows the team to be as efficient as possible, delivering as much business value as possible.</p>
 
-<p>Agile is often used as a positive spin on disorganised, and this actually accerbates the problem; both through the differences between reality and what is presented to customers, prospective team members and other stakeholders, and because of the additional process and work associated with agile (retrospectives, planning sessions) that are ineffective and waste time when not used properly.</p>
+<p>I&rsquo;ve also seen agile often used as a positive spin on being disorganised; simply having little or no documentation, design or process does not an agile team make! A team in this state, using agile vocabulary actually compounds the problem; both through the differences between reality and what is presented to customers, prospective team members and other stakeholders, and because of the additional process and work associated with agile (retrospectives, planning sessions) that are ineffective and waste time when not used properly.</p>
 
-<p>Below are some common traits I&rsquo;ve seen in good teams, and how to spot when they may not be correct, I&rsquo;ve often seen the opposite of these in teams and when you talk to individuals in the team you&rsquo;ll often hear complaints, moaning and general disatisfaction.</p>
+<p>Below are some common traits I&rsquo;ve seen in good teams, and how to spot when they may not be correct, I&rsquo;ve often seen the opposite of these in teams and they can be easily spotted by talking to individuals in the team; you&rsquo;ll often hear complaints, moaning and general dissatisfaction around these themes.</p>
 
 <ul>
-<li>The team either has an empowered sponsor/business owner available at least 80% of the time, or there is a good understanding of the acceptance criteria for work items being delivered. If you regularly have situations where the sponsors expectations aren&rsquo;t met, this is likely to be the issue.</li>
+<li>The team either has an empowered sponsor / business owner available at least 80% of the time, or there is a good understanding of the acceptance criteria for work items being delivered. If you regularly have situations where the sponsors expectations aren&rsquo;t met, this is likely to be the issue.</li>
 <li>The backlog is managed sensibly, with work coming into the backlog and the team managing it through the process. Work coming in directly to individuals is a common indication this isn&rsquo;t happening.</li>
 <li>Work item estimation is done with a good understanding of what the scope / acceptance criteria are. Estimations based on a one line description are unlikely to be accurate.</li>
 <li>The team has an appropriate development process for their situation. If the team is less than ten people, in one room, a simple wall board should suffice. If you have remote team members you need to think about how they interact with it.</li>
@@ -33,7 +33,7 @@
 <li>The team has a culture of code quality, especially tests. You often see a reluctance to refactor code when a codebase has insufficient tests.</li>
 <li>The team has an engaged daily standup with a small amount, but not too much, back and forth between team members. A flat, boring update with everyone giving a 15 second update to the team leader doesn&rsquo;t really add value.</li>
 <li>The team regularly contribute to each others features, through discussion, review, pairing and testing. A group of people working in isolation does not equal a team.</li>
-<li>The team ships regularly, whether this is to a UAT envvironment, or live features are being deployed regularly. If the shorter of a month, or two iterations go by and this hasn&rsquo;t happened, it&rsquo;s a bad sign.</li>
+<li>The team ships regularly, whether this is to a UAT environment, or live features are being deployed regularly. If the shorter of a month, or two iterations go by and this hasn&rsquo;t happened, it&rsquo;s a bad sign.</li>
 </ul>
 
 
