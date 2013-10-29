@@ -2,56 +2,60 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://www.ctoaas.co/blog/2013/09/22/setting-up-a-simple-blog/</loc>
-        <lastmod>2013-10-12T09:33:36+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/blog/2013/10/14/doing-agile-badly/</loc>
-        <lastmod>2013-10-21T21:37:09+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/blog/2013/10/16/the-technologists-dilemna/</loc>
-        <lastmod>2013-10-21T22:11:13+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/blog/2013/10/21/how-should-i-get-started-coding/</loc>
-        <lastmod>2013-10-21T23:11:46+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://www.ctoaas.co/blog/2013/10/23/modern-customer-service-the-customer-is-never-right/
         </loc>
-        <lastmod>2013-10-23T09:03:02+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/blog/2013/10/24/teams-shouldnt-need-to-reach-consensus/</loc>
-        <lastmod>2013-10-23T17:52:54+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.ctoaas.co/blog/2013/10/29/thoughts-on-privacy/</loc>
+        <lastmod>2013-10-29T07:33:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/about/</loc>
-        <lastmod>2013-10-12T09:33:36+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/blog/archives/</loc>
-        <lastmod>2013-10-23T17:52:54+01:00</lastmod>
+        <lastmod>2013-10-29T07:33:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/blog/</loc>
-        <lastmod>2013-10-23T17:52:54+01:00</lastmod>
+        <lastmod>2013-10-29T07:33:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/humans.txt</loc>
-        <lastmod>2013-09-24T08:08:58+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/</loc>
-        <lastmod>2013-10-23T17:52:54+01:00</lastmod>
+        <lastmod>2013-10-29T07:33:29+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/robots.txt</loc>
-        <lastmod>2013-09-24T08:08:58+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.ctoaas.co/search.html</loc>
-        <lastmod>2013-10-12T09:33:36+01:00</lastmod>
+        <lastmod>2013-10-24T09:56:10+01:00</lastmod>
     </url>
 </urlset>
