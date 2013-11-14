@@ -53,7 +53,7 @@ When thinking about which technologies to use there are a number of facets to co
 
 * Language maintainability : the verbosity of the code you write, the amount of boiler plate code you need to implement and type safety affect the maintainability of the codebase that is produced.
 
-* Suitability for concurrent systems : multi-threading, shared, mutable state and traditional process models are one of the major contributors to running stable highly concurrent applications. Immutability, 
+* Suitability for concurrent systems : multi-threading, shared, mutable state and traditional process models are one of the major contributors to running stable highly concurrent applications. Immutability and the actor model can remove the need for locking, keep your application consistent and help it handle exceptional circumstances that would otherwise grind the whole application to a halt.
 
 * Existing large reference sites : Are there good examples of large organisations using it for core / critical functions, and contributing to the eco-system.
 
