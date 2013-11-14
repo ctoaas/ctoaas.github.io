@@ -45,7 +45,6 @@ Resources:
 	* [treehouse CSS](http://teamtreehouse.com/library/websites/css-foundations-2) 
 
 
-
 # Deploy a web page / site to a live environment
 With a basic understanding of how to create a web page, the learner is able to create a landing page for their next idea. For friends, family, etc to be directed to it, it needs to be hosted somewhere accessible on the internet. Take a look at the available options; My personal favourite at the moment is Github pages, which lets anyone host 'static' websites for free, on a custom domain (I use octopress to create the static site), Amazon Web Services (AWS) hosts static websites (via S3) and full web stacks (via EC2) very cheaply. There are plenty of other shared hosting solutions to check out that will help you get your site up on the internet.
 
